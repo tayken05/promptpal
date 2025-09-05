@@ -1,3 +1,34 @@
+# PromptPal (MVP)
+
+Write in plain language → get a professional AI prompt back with **dynamic examples** automatically included.
+
+## What it does
+- Turns a user’s plain instruction into a 6-part prompt:
+  1) Role
+  2) Context
+  3) Task
+  4) Constraints
+  5) Output format
+  6) Examples (generated fresh every time)
+
+## MVP scope
+- Input → output loop (one page)
+- Dynamic examples (always on)
+- Coach panel (explains why the rewrite is stronger)
+- Iteration controls (tone, platform, length)
+- Copy to clipboard
+- Simple responsive UI
+- No accounts (Pro later with history, integrations, multilingual)
+- Light analytics later
+
+## Tech
+- Next.js (App Router) + TypeScript
+- Tailwind CSS
+- API route to an AI provider (OpenAI first)
+
+## Dev
+- Start: `npm run dev` → http://localhost:3000
+- Composer page lives at `/composer`
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
